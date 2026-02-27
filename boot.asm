@@ -64,7 +64,6 @@ process_input:
     cmp byte [si], 0
     je main_loop
 
-    mov si, input_buffer
     mov di, cmd_help
     call strcmp
     cmp al, 1
