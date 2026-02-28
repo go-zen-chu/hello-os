@@ -16,3 +16,4 @@ make build
 make run
 ```
 
+When the OS starts, a simple terminal prompt appears. Try `help` and `clear`.
